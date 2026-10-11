@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Financial System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class = "app-layout">
+        <aside class = "sidebar">
+            <h2>ACCOUNTING</h2>
+            <nav>
+                <a href="index.html" class="active">Dashboard</a>
+                <a href="transactionform.html">Transactions</a>
+                <a href="#">Project</a>
+                <a href="#">Financial Statement</a>
+            </nav>
+        </aside>
+        
+        <div class="main-content">
+            <header class="topbar">
+                <h1>Dashboard</h1>
+                <span class="user-icon"></span>
+            </header>
+
+            <main id="inputScreen">
+                <section class="dashboard-content">
+                    <div class="summarycards">
+                        <div class="summarycard">
+                            <p>Income</p>
+                            <h2 id ="totalRevenue">$0.00</h2>
+                        </div>
+                        <div class="summarycard">
+                            <p>Expenses</p>
+                            <h2 id="totalExpenses">$0.00</h2>
+                        </div>
+                        <div class="summarycard">
+                            <p>Profit</p>
+                            <h2 id="netIncome">$0.00</h2>
+                        </div>
+                    </div>
+                    <div class="dashboard-grid">
+                        <div class="dashboardcard income-expenses-card">
+                            <h3>Income & Expenses</h3>
+                            <div class="chart-placeholder">
+                                chart will apperar here
+                            </div>
+                        </div>
+                        <div class="dashboardcard cash-flow-card">
+                            <h3>Cash Flow</h3>
+                            <div class="cash-flow-placeholder">
+                                Cash flow data will appear here
+                            </div>
+                        </div>
+                        <div class="dashboardcard expenses-card">
+                            <h3>Expenses</h3>
+                            <div class="expense-placeholder">
+                                Expense breakdown will appear here
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
